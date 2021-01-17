@@ -19,8 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main01.cpp" />
-    <ClCompile Include="main02.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="test00.cpp" />
+    <ClCompile Include="test01.cpp" />
+    <ClCompile Include="test02.cpp" />
+    <ClCompile Include="test03.cpp" />
+    <ClCompile Include="test04.cpp" />
+    <ClCompile Include="test05.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -92,7 +97,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
