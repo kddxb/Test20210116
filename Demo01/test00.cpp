@@ -6,6 +6,6 @@ namespace test00
 
     void dotest()
     {
-
+        
     }
 }

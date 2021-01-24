@@ -78,7 +78,6 @@ namespace test06
     {
         vec2 v2(10, 20);
         vec3 v3(500, 500, 500);
-        v3.x = v3.y = v3.z = 500;
         v3.xz = v2;
         cout << v3 << endl;
     }

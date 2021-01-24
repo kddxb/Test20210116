@@ -20,8 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="main10.cpp" />
-    <ClCompile Include="main11.cpp" />
+    <ClCompile Include="test10.cpp" />
+    <ClCompile Include="test11.cpp" />
     <ClCompile Include="test00.cpp" />
     <ClCompile Include="test01.cpp" />
     <ClCompile Include="test02.cpp" />
@@ -32,6 +32,7 @@
     <ClCompile Include="test07.cpp" />
     <ClCompile Include="test08.cpp" />
     <ClCompile Include="test09.cpp" />
+    <ClCompile Include="test12.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -132,6 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +148,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

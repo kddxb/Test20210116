@@ -48,10 +48,13 @@
     <ClCompile Include="test09.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main10.cpp">
+    <ClCompile Include="test11.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main11.cpp">
+    <ClCompile Include="test10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test12.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
