@@ -17,7 +17,7 @@ namespace test12
         fun2(i);
         fun2(j);
         //fun3(i); //consteval必须能编译器求值
-        fun3(j);
+        constexpr int xx = fun3(j);
 
     }
 }
