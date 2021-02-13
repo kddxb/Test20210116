@@ -66,5 +66,20 @@
     <ClCompile Include="test15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test17.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test18.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test19.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

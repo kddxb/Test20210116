@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,35 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="main20.cpp" />
-    <ClCompile Include="test10.cpp" />
-    <ClCompile Include="test11.cpp" />
-    <ClCompile Include="test00.cpp" />
-    <ClCompile Include="test01.cpp" />
-    <ClCompile Include="test02.cpp" />
-    <ClCompile Include="test03.cpp" />
-    <ClCompile Include="test04.cpp" />
-    <ClCompile Include="test05.cpp" />
-    <ClCompile Include="test06.cpp" />
-    <ClCompile Include="test07.cpp" />
-    <ClCompile Include="test08.cpp" />
-    <ClCompile Include="test09.cpp" />
-    <ClCompile Include="test12.cpp" />
-    <ClCompile Include="test13.cpp" />
-    <ClCompile Include="test14.cpp" />
-    <ClCompile Include="test15.cpp" />
-    <ClCompile Include="test16.cpp" />
-    <ClCompile Include="test17.cpp" />
-    <ClCompile Include="test18.cpp" />
-    <ClCompile Include="test19.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c40a46c5-d508-4aeb-b259-eefae1794cc0}</ProjectGuid>
-    <RootNamespace>Demo01</RootNamespace>
+    <ProjectGuid>{25a1b571-c82d-45a8-8383-b949807cee4b}</ProjectGuid>
+    <RootNamespace>Demo02</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +118,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,7 +132,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -166,6 +140,10 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Test.ixx" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
