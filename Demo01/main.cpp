@@ -1,4 +1,4 @@
-#define testnamespace test20
+#define testnamespace test21
 
 namespace testnamespace
 {
