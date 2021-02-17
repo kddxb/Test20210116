@@ -52,6 +52,7 @@
     <ClCompile Include="test29.cpp" />
     <ClCompile Include="test30.cpp" />
     <ClCompile Include="test31.cpp" />
+    <ClCompile Include="test32.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
