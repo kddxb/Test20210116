@@ -105,5 +105,8 @@
     <ClCompile Include="test27.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
