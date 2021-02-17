@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-namespace test23
+namespace test24
 {
 
     struct A {};
@@ -9,39 +9,42 @@ namespace test23
     struct C {};
 
     template<typename T>
-    std::enable_if_t<std::is_base_of_v<A, T>> fun()
+    void fun(std::enable_if_t<std::is_base_of_v<A, T>>* = nullptr)
     {
         std::cout << "is base of A" << std::endl;
     }
 
     template<typename T>
-    std::enable_if_t<!std::is_base_of_v<A, T>> fun()
+    void fun(std::enable_if_t<!std::is_base_of_v<A, T>>* = nullptr)
     {
         std::cout << "is't base of A" << std::endl;
     }
 
     template<typename T>
-    std::enable_if_t<std::is_base_of_v<A, T>> fun2(T t)
+    std::enable_if_t<std::is_base_of_v<A, T>, int> fun2()
     {
         std::cout << "is base of A 222" << std::endl;
+        return 0;
     }
 
     template<typename T>
-    std::enable_if_t<!std::is_base_of_v<A, T>> fun2(T t)
+    std::enable_if_t<!std::is_base_of_v<A, T>, int> fun2()
     {
         std::cout << "is't base of A 222" << std::endl;
+        return 0;
     }
 
-    //SFINAE
-    //Substitution failure is not an error
+    //enable_if
     void dotest()
     {
-        fun<B>();//实例化出函数void fun<B>();
-        fun<C>();//实例化出函数void fun<C>();
-        fun<int>();//实例化出函数void fun<int>();
+        fun<A>();
+        fun<B>();
+        fun<C>();
+        fun<int>();
 
-        fun2(B());
-        fun2(C());
-        fun2(0);
+        fun2<A>();
+        fun2<B>();
+        fun2<C>();
+        fun2<int>();
     }
 }

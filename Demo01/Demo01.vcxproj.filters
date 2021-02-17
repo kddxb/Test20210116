@@ -90,5 +90,20 @@
     <ClCompile Include="test23.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test25.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test28.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test26.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
