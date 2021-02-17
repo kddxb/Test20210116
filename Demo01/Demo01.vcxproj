@@ -42,6 +42,8 @@
     <ClCompile Include="test17.cpp" />
     <ClCompile Include="test18.cpp" />
     <ClCompile Include="test19.cpp" />
+    <ClCompile Include="test22.cpp" />
+    <ClCompile Include="test23.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
